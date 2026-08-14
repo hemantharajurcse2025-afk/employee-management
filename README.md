@@ -1,47 +1,62 @@
 # Employee Management System
 
-## Overview
+A simple and user-friendly Employee Management System developed using Python, Flask, HTML, and CSS.
 
-Employee Management System is a simple Python-based command-line application used to manage employee information.
+The application allows users to add, view, update, and delete employee information through a web-based interface.
 
-The project demonstrates basic software development practices such as Python programming, Git version control, GitHub repository management, project structure, and documentation.
+---
 
 ## Features
 
-- Add Employee
-- View Employees
-- Search Employee
-- Delete Employee
-- Exit application
+- Add new employees
+- View all employees
+- Edit employee information
+- Delete employees
+- Delete confirmation
+- Display total number of employees
+- Display number of departments
+- Calculate total salary
+- Department selection
+- Employee email validation
+- Responsive web interface
+- Clean and simple dashboard
 
-## Employee Information
-
-The system stores:
-
-- Employee ID
-- Name
-- Email
-- Department
-- Salary
+---
 
 ## Technologies Used
 
+### Backend
 - Python
+- Flask
+
+### Frontend
+- HTML5
+- CSS3
+- Jinja2 Templates
+
+### Tools
 - Git
 - GitHub
+- Visual Studio Code
+
+---
 
 ## Project Structure
 
 ```text
-employee-management/
+Employee-Management/
 │
 ├── src/
-│   ├── main.py
-│   └── employee.py
+│   ├── employee.py
+│   └── main.py
 │
-├── tests/
-│   └── test_employee.py
+├── templates/
+│   ├── index.html
+│   └── edit.html
 │
+├── static/
+│   └── style.css
+│
+├── app.py
 ├── README.md
-├── requirements.txt
 └── .gitignore
